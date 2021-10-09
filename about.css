@@ -1,0 +1,44 @@
+img, svg {
+  vertical-align: middle;
+}
+img {
+  border-style: none;
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+body {
+    background-image:linear-gradient(rgba(10, 8, 8, 0.452),rgba(10, 8, 8, 0.452)), url("ab\ bg.jpg");
+    background-size: cover;
+    background-position: center;
+    max-height: 80vh;
+    width: 80%;
+}
+.container
+{
+    margin-top:219px;
+    max-width: 782px;
+        
+    
+}
+.jumbotron
+{
+    background-color: rgb(17, 240, 229);
+}
+.container .con{
+  color: black;
+}
+
+
+@keyframes changetext {
+    0% {
+      color: rgb(65, 117, 141);
+    }
+    25% {
+      color: rgb(74, 160, 63);
+    }
+    50% {
+      color: blue;
+    }
+  }
