@@ -1,0 +1,58 @@
+body {
+  background-image:linear-gradient(rgba(10, 8, 8, 0.452),rgba(10, 8, 8, 0.452)), url("boy\ study.jpeg");
+  background-size: cover;
+  background-position: center;
+  max-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: top;
+  align-items: top;
+}
+
+.container
+{
+  margin-top:219px;
+  max-width: 782px;
+  text-align: center;
+  margin-left: 300px;
+  margin-right: auto;
+  margin-bottom: 219px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  
+}
+.jumbotron
+{
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#donate_form
+{
+  padding-left: 100px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 100px;
+}
+
+@media screen and (min-device-width: 121px) and (max-device-width: 621px){
+  #donate_form
+{
+  padding-left: 10px;
+}
+}
+
+@keyframes changetext {
+0% {
+  color: red;
+}
+25% {
+  color: yellow;
+}
+50% {
+  color: blue;
+}
+}
